@@ -232,7 +232,6 @@ margin: 0 auto;}
     background-image: url("img/stene5.jpg");
     background-size: cover;
     background-position: center;
-
   }
   .slicica{
     width: 10rem;
@@ -294,7 +293,8 @@ textarea{
      border-bottom: 2px solid #000;
 }
 .forminput:focus:invalid{
-  border-bottom: 2px solid red;}
+  border-bottom: 2px solid red;
+}
 .formlabel{
   font-size: 1.2rem;
   margin-left: 2rem;
@@ -321,7 +321,7 @@ textarea{
    transform: scale(1.2);
  }
 
- @media (max-width:56.25em){
+ @media (max-width:900px){
    .navigacija{
 
      width: 100% !important;
@@ -350,7 +350,7 @@ textarea{
      padding-top:3rem;
        }
    }
- @media (max-width:31.25em){
+ @media (max-width:600px){
    .header{
      padding: 1rem;
    }
