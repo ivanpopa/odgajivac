@@ -321,7 +321,7 @@ textarea{
    transform: scale(1.2);
  }
 
- @media (max-width:900px){
+  @media only screen and (max-width: 56.25em){
    .navigacija{
 
      width: 100% !important;
@@ -350,7 +350,7 @@ textarea{
      padding-top:3rem;
        }
    }
- @media (max-width:600px){
+  @media only screen and (max-width: 37.5em){
    .header{
      padding: 1rem;
    }
